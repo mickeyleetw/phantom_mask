@@ -1,0 +1,8 @@
+.coverage
+.githooks
+.pytest_cache
+*.pyc
+*.swp
+**/.DS_Store
+__pycache__
+.vscode

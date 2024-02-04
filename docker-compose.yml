@@ -1,0 +1,11 @@
+version: '3'
+services:
+  postgresql:
+    image: 'postgres:13-alpine'
+    restart: always
+    environment:
+      - POSTGRES_DB=app
+      - POSTGRES_USER=app
+      - POSTGRES_PASSWORD=app
+    ports:
+      - '5440:5432'
